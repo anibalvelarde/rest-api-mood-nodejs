@@ -1,0 +1,2 @@
+# Domain Analysis for Mood Check API
+This document contains documentation and artifacts related to the analysis of the domain for creating quick mood-check surveys that can be created in real-time and recieve the "mood" of the intended audience in real-time also.
