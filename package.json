@@ -1,0 +1,31 @@
+{
+  "name": "rest-api-mood-nodejs",
+  "version": "1.0.0",
+  "description": "REST API for Mood back-end app services.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anibalvelarde/rest-api-mood-nodejs.git"
+  },
+  "keywords": [
+    "RESTful",
+    "API",
+    "Node.js"
+  ],
+  "author": "Anibal E. Velarde",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anibalvelarde/rest-api-mood-nodejs/issues"
+  },
+  "homepage": "https://github.com/anibalvelarde/rest-api-mood-nodejs#readme",
+  "devDependencies": {
+    "jest": "^24.1.0",
+    "nodemon": "^1.18.10"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
