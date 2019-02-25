@@ -6,7 +6,7 @@ var express = require('express'),
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 
-const routes = require('./api/routes/surveyRoutes');
+const routes = require('./api/routes/allRoutes');
 routes(app);
 
 app.listen(port);
