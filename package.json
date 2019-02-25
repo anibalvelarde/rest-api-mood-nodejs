@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon ./src/server.js"
+    "start": "nodemon ./src/server.js",
+    "lint": "eslint **/*.js --ignore-pattern node_modules/"
   },
   "repository": {
     "type": "git",
@@ -23,10 +24,15 @@
   },
   "homepage": "https://github.com/anibalvelarde/rest-api-mood-nodejs#readme",
   "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.14.1",
+    "eslint-config-defaults": "^9.0.0",
+    "eslint-plugin-react": "^7.12.4",
     "jest": "^24.1.0",
     "nodemon": "^1.18.10"
   },
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "uuid": "^3.3.2"
   }
 }
